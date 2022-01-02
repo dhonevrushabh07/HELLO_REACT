@@ -1,22 +1,13 @@
-const App = () => {
+export default function App() {
+  let counter = 100;
+  let username = "Vrushabh";
+  let email = "vrushabh@gmail.com";
+
   return (
     <div>
-      <h1>Hello World</h1>
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad officia
-        corporis mollitia quas fugit quibusdam minima similique assumenda labore
-        necessitatibus, architecto aliquid consequatur rem, deserunt quis
-        provident modi, molestias natus.
-      </div>
-
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad officia
-        corporis mollitia quas fugit quibusdam minima similique assumenda labore
-        necessitatibus, architecto aliquid consequatur rem, deserunt quis
-        provident modi, molestias natus.
-      </div>
+      <div>{counter}</div>
+      <div>{username}</div>
+      <div>{email}</div>
     </div>
   );
-};
-
-export default App;
+}
